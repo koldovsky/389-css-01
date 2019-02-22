@@ -1,0 +1,24 @@
+:root {
+    --main-color: #4286f4;
+}
+
+h1 {
+    color: red;
+}
+
+
+#selected {
+    color: var(--main-color);
+}
+
+.marked {
+    background-color: yellow;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p:hover {
+    border: 1px solid black;
+}
